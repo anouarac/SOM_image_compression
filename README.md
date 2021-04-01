@@ -1,5 +1,6 @@
-# SOM_image_compression
- The goal is to optimize image compression in terms of memory using neural networks.
+# Image compression using Self Organizing Maps
+ The goal is to optimize image compression in terms of memory using neural networks and more specifically using self organizing maps.
+ 
  The current build gives promising results for medical images after just a few minutes of training.
  Benchmarks are tba.
  

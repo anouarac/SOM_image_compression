@@ -4,7 +4,6 @@
  Benchmarks are tba.
  
 ## How to compile
-----------------------------------------
  The source requires libpng headers: [libpng](http://www.libpng.org/pub/png/libpng.html)
  
  The project was made using Qt Creator.
@@ -12,7 +11,6 @@
  Use the MSVC 2019 C++ compiler as libpng requires it.
  
 ## How to use
-----------------------------------------
  The compiled program will take 7 lines of input:
  
 	* The file name (e.g. input if the file's name is input.png, note that it will only take png files)

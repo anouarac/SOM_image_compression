@@ -2,7 +2,6 @@
  The goal is to optimize image compression in terms of memory using neural networks and more specifically using self organizing maps.
  
  The current build gives promising results for medical images after just a few minutes of training.
- Benchmarks are tba.
  
 ## How to compile
  The source requires libpng headers: [libpng](http://www.libpng.org/pub/png/libpng.html)
@@ -23,3 +22,10 @@
  The program will automatically save the network locally.
  
  You can find example outputs for different parameters.
+
+ ## Benchmarks
+![Comparison between JPEG and SOM](https://github.com/Froopie/SOM_image_compression/blob/master/plots/plot_target_square_grid.png)
+![Error rate of images produced by the SOM depending on the dimensions of the network](https://github.com/Froopie/SOM_image_compression/blob/master/plots/plot_target_square_grid.png)
+
+![Comparison between JPEG and SOM with the approximated algorithm](https://github.com/Froopie/SOM_image_compression/blob/master/plots/plot_target_square_approx_grid.png)
+![Error rate of images produced by the SOM depending on the dimensions of the network](https://github.com/Froopie/SOM_image_compression/blob/master/plots/plot_3d_approx_viridis.png)

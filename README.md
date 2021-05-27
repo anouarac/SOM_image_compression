@@ -34,6 +34,7 @@
 | <img src="https://github.com/Froopie/SOM_image_compression/blob/master/plots/plot_target_square_approx_grid.png" alt="drawing" width="710"/> | <img src="https://github.com/Froopie/SOM_image_compression/blob/master/plots/plot_3d_approx_viridis.png" alt="drawing" width="500"/> | 
 
 #### Computing time
+<center>
 p | Without approximation | With approximation
 --- | --- | --- 
 2 | 3 s | < 1 s 
@@ -42,3 +43,4 @@ p | Without approximation | With approximation
 30 | 45 s | 5 s 
 49 | 120 s | 5 s 
 64 | 206 s | 6 s 
+</center>

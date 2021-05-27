@@ -24,8 +24,17 @@
  You can find example outputs for different parameters.
 
  ## Benchmarks
+ 
+ | Comparison between JPEG and SOM | Error rate of images produced by the SOM depending on the dimensions of the network |
+| ------| ------ |
+| <img src="https://github.com/Froopie/SOM_image_compression/blob/master/plots/plot_target_square_grid.png" alt="drawing" width="600"/> | <img src="https://github.com/Froopie/SOM_image_compression/blob/master/plots/plot_3d_non_approx_viridis.png" alt="drawing" width="600"/> |
+
 ![Comparison between JPEG and SOM](https://github.com/Froopie/SOM_image_compression/blob/master/plots/plot_target_square_grid.png)
-![Error rate of images produced by the SOM depending on the dimensions of the network](https://github.com/Froopie/SOM_image_compression/blob/master/plots/plot_target_square_grid.png)
+![Error rate of images produced by the SOM depending on the dimensions of the network](https://github.com/Froopie/SOM_image_compression/blob/master/plots/plot_3d_non_approx_viridis.png)
+
+| Comparison between JPEG and SOM with the approximated algorithm | Error rate of images produced by the SOM depending on the dimensions of the network with the approximated algorithm |
+| ------| ------ |
+| <img src="https://github.com/Froopie/SOM_image_compression/blob/master/plots/plot_target_square_approx_grid.png" alt="drawing" width="600"/> | <img src="https://github.com/Froopie/SOM_image_compression/blob/master/plots/plot_3d_approx_viridis.png" alt="drawing" width="600"/> | 
 
 ![Comparison between JPEG and SOM with the approximated algorithm](https://github.com/Froopie/SOM_image_compression/blob/master/plots/plot_target_square_approx_grid.png)
 ![Error rate of images produced by the SOM depending on the dimensions of the network](https://github.com/Froopie/SOM_image_compression/blob/master/plots/plot_3d_approx_viridis.png)

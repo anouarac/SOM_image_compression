@@ -39,9 +39,6 @@ for bsz in range(2,mx+2):
       sum += cnt*l*l
     save[bsz].append(np.sqrt(sum)/2000/1976/255)
 
-#fig = plt.figure()
-#ax = fig.gca(projection='3d')
-#ax = fig.add_subplot(111, projection='3d')
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 X,Y = np.arange(2,mx+2), np.arange(2,mx+2)
@@ -66,7 +63,6 @@ ax.set_xlabel('Output layer size')
 ax.set_ylabel('Input layer size')
 ax.set_zlabel('Error rate')
 ax.plot_surface(X, Y, Z, cmap='viridis')
-#ax.set_title(r'File size depending on I/O layers (without approximation)', color='k')
 ax.view_init(30, 45)
 plt.savefig('plot_3d_approx_viridis_line.png')
 plt.show()

@@ -53,10 +53,6 @@ for bsz in range(2,31):
       idsz = bsz
       idoutsz = outsz
     locmin = min(locmin,sum)
-    if sum < mini:
-      mini = sum
-      idsz = bsz
-      idoutsz = outsz
   diffs2.append(np.sqrt(locmin)/2000/1976/255*1000000)
   sizes2.append(size/orgsize)
 
@@ -67,10 +63,7 @@ plt.plot(sizes,diffs,label="JPEG")
 plt.legend()
 plt.grid()
 
-#plt.subplot(1,2,2).legend()
-#plt.subplot(1,2,1).legend()
 plt.ylabel("Error rate")
 plt.xlabel("File size reduction ratio")
-#plt.subplot(1,2,2).set_xlabel("File size")
 plt.savefig('plot_target_square_grid.png')
 plt.show()
